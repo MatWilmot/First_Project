@@ -1,11 +1,37 @@
-.firstName {
-    color: red;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
-.middleName {
-    color: blue;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #34495e;
+    height: 5vh;
 }
 
-.lastName {
-    color:purple
+.nav h1 {
+    color: whitesmoke;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.nav ul {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.nav ul li {
+    color: whitesmoke;
+    list-style: none;
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav ul li:not(:last-child){
+    margin-right: 10px;
 }
