@@ -16,22 +16,22 @@ body {
     align-self: center;
 }
 
-.nav ul {
+.navList{
     align-self: center;
     margin-right: 20px;
 }
 
-.nav ul li {
+.navList li {
     color: whitesmoke;
     list-style: none;
     display: inline;
 }
 
-.nav ul li a {
+.navList li a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-.nav ul li:not(:last-child){
+.navList li:not(:last-child){
     margin-right: 10px;
 }
