@@ -1,0 +1,23 @@
+.about {
+  background-color: thistle;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.cardHeader {
+  height: 100px;
+  width: 400px;
+  background-color: #34495e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
