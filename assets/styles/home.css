@@ -1,0 +1,12 @@
+.home {
+  height: 95vh;
+  background-color: thistle;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 25%;
+}
