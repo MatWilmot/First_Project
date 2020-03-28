@@ -33,6 +33,7 @@ body {
     color: whitesmoke;
 }
 
+/* Target all children in '.navList li' but not the last-child */
 .navList li:not(:last-child){
     margin-right: 10px;
 }
