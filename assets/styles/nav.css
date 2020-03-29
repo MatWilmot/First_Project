@@ -6,12 +6,12 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #34495e;
+    background-color: #273c75;
     height: 5vh;
 }
 
 .nav h1 {
-    color: whitesmoke;
+    color: #f5f6fa;
     margin: 0;
     margin-left: 20px;
     align-self: center;
@@ -23,14 +23,14 @@ body {
 }
 
 .navList li {
-    color: whitesmoke;
+    color: #f5f6fa;
     list-style: none;
     display: inline;
 }
 
 .navList li a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #f5f6fa;
 }
 
 /* Target all children in '.navList li' but not the last-child */

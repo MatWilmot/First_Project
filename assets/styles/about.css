@@ -1,5 +1,5 @@
 .about {
-  background-color: thistle;
+  background-color: #dcdde1;
   height: 95vh;
   display: flex;
   justify-content: center;
@@ -9,14 +9,14 @@
 .card {
   width: 400px;
   height: 400px;
-  background-color: aliceblue;
+  background-color: #f5f6fa;
   border-radius: 10px;
 }
 
 .cardHeader {
   height: 100px;
   width: 400px;
-  background-color: #34495e;
+  background-color: #192a56;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
@@ -27,8 +27,8 @@
 
 .cardHeader h1 {
   margin:  0;
-  color: whitesmoke;
-  letter-spacing: 3px;
+  color: #f5f6fa;
+  letter-spacing: 2px;
 }
 
 .cardBody {
