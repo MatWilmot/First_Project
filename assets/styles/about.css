@@ -32,13 +32,22 @@
 }
 
 .cardBody {
-  height: 260px;
+  height: 280px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 20px;
+
+  /* Using clockwise notation to add different padding values to 
+  different sides */
+  padding: 10px 15px 10px 20px;
   line-height: 25px;
+
+  /* The overflow: scroll; setting overrides the 
+  border-bottom-radius values  */
+  overflow: scroll;
+  scroll-behavior: auto;
+}
 }
 
 .cardBody p {
-  margin: 0;
+  margin: 0px;
 }
